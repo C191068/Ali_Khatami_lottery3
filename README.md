@@ -80,7 +80,11 @@ you are willing to pay for a request in wei.
 It functions as an ID of the off-chain VRF job that runs in response to requests.<br>
 
 Fisrt to pick a gas lane we proabbly gonna have this gas lane or key hash store somewhere <br>
- for that we gonna have it as a praameter of our main constructor and gonna save it as <br>
+
+
+![c24](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/0d9869c0-e403-46d7-8cbc-c660a693623f)
+
+for that we gonna have it as a parameter of our main constructor and gonna save it as <br>
  also a state variable <br>
 
  
