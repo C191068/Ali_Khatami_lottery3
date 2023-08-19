@@ -32,6 +32,9 @@ COORDINATOR = VRFCoordinatorV2Interface(
 To get the  VRFCoordinatorV2Interface contract we will copy the above code <br>
 
 
+![c16](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/cc3218fb-343d-472d-9d22-1901c75ffc10)
+
+And we will paste it here <br>
 
 
 
