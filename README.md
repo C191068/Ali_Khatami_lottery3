@@ -234,6 +234,14 @@ We not gonna have this parameterizable we actually gonnna have this constant <br
 
 Next is callbackgaslimit <br>
 
+Callbackgaslimit is The limit for how much gas to use for the callback request to your contract's fulfillRandomWords function.<br>
+It must be less than the maxGasLimit on the coordinator contract.<br>
+Adjust this value for larger requests depending on how your fulfillRandomWords function processes<br>
+and stores the received random values. <br>
+If your callbackGasLimit is not sufficient,<br>
+the callback will fail and your subscription is still charged<br>
+for the work done to generate your requested random values.
+
 
 
 
