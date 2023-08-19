@@ -61,7 +61,9 @@ Here our vrfCoordinator is immutable <br>
 In order to request random words we gonna give it some parameters <br>
 For that we gonna copy the above line of code <br>
 
+![c21](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/8d0cd404-1969-4e3b-a1dd-1c2805f8adcb)
 
+Then we change it from Coordiantor to i_vrfCoordinator   <br>
 
 
 
