@@ -56,6 +56,13 @@ We only gonna set our vrfCoordinator one time rigt in the constaructor <br>
 Here our vrfCoordinator is immutable <br>
 
 
+![c20](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/12b2048b-a38d-4f53-af8e-19691fa18721)
+
+In order to request random words we gonna give it some parameters <br>
+For that we gonna copy the above line of code <br>
+
+
+
 
 
 
