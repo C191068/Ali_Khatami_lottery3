@@ -1,4 +1,4 @@
-# Ali_Khatami_Lottery3(Learning from the video of patrick Collins)
+![c25](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/d9d11d33-eb8f-439b-b0d8-6fa59525bbde)# Ali_Khatami_Lottery3(Learning from the video of patrick Collins)
 
 ###  Implementing Chainlink VRF(The Request)  
 
@@ -87,8 +87,15 @@ Fisrt to pick a gas lane we proabbly gonna have this gas lane or key hash store 
 for that we gonna have it as a parameter of our main constructor and gonna save it as <br>
  also a state variable <br>
 
+
+![c25](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/4459bccc-5e5a-475c-9819-ed4ff95e1741)
+
  
-Then we will declare a new stae variable and we only gonna set this once and so we will amke this private  <br>
+Then we will declare a new state variable and we only gonna set this once and so we will amke this private  <br>
+
+Now
+
+The subscription ID that this contract uses for funding requests. Initialized in the constructor.
 
 
 
