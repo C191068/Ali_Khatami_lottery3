@@ -88,6 +88,8 @@ for that we gonna have it as a parameter of our main constructor and gonna save 
  also a state variable <br>
 
  
+Then we will declare a new stae variable and we only gonna set this once <br>
+
 
 
 
