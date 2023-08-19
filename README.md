@@ -297,6 +297,10 @@ and all other information <br>
 
 if we wanna sve it we can do the above <br>
 
+
+![c34](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/8c053655-dc8d-4619-9b27-fb8c738dab9c)
+
+
 Now for now we gonna emit event with this request ID <br>
 
 
