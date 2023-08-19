@@ -312,6 +312,115 @@ Here we wmit the event <br>
 Now we gonna set this up so that chainlink keepers can call it on a time interval <br>
 
 
+```solidity
+
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.19;
+
+import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
+import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
+
+error akrkLottery_NotEnoughEthEntered();
+
+contract akrkLottery is VRFConsumerBaseV2 {
+    //below we gonna pick minimum price and it gonna be storage variable
+    //visibiliy will be private but it will be configurable
+    //We will cover our both storage and non storage variables under state variables section
+
+    /* State variables */
+
+    uint256 private immutable i_welcomeFee;
+    //We probably also nedd to track of all the users who entered the lottery
+    //participants is a storage variable because we gonna modify this a lot
+    address payable[] private s_participants;
+
+    VRFCoordinatorV2Interface private immutable i_vrfCoordinator;
+
+    bytes32 private immutable i_gasLane;
+
+    uint64 private immutable i_subscriptionId;
+
+    uint32 private immutable i_callbackGaslimit;
+
+    uint16 private constant REQUEST_CONFIRMATIONS = 3;
+
+    uint32 private constant NUM_WORDS = 1;
+
+    /* Events */
+
+    event LotteryEnter(address indexed participants);
+
+    event RequestedLotteryChampion(uint256 indexed requestId);
+
+    // to configure it we st constructor below
+
+    constructor(
+        address vrfCoordinatorV2,
+        uint256 welcomeFee,
+        bytes32 gasLane,
+        uint64 subscriptionId,
+        uint32 callbackGaslimit
+    ) VRFConsumerBaseV2(vrfCoordinatorV2) {
+        i_welcomeFee = welcomeFee;
+
+        i_vrfCoordinator = VRFCoordinatorV2Interface(vrfCoordinatorV2);
+
+        i_gasLane = gasLane;
+
+        i_subscriptionId = subscriptionId;
+
+        i_callbackGaslimit = callbackGasLimit;
+    }
+
+    //to enter the lottery we created a function below
+
+    function enterLottery() public payable {
+        if (msg.value < i_welcomeFee) {
+            revert akrkLottery_NotEnoughEthEntered();
+        }
+
+        s_participants.push(payable(msg.sender));
+
+        emit LotteryEnter(msg.sender);
+    }
+
+    //to pick a random champion we created the function below
+    //The below function is gonna be called by chainlink keepers network
+
+    function requestRandomchampion() external {
+        uint256 requestId = i_vrfCoordinator.requestRandomWords(
+            i_gasLane,
+            i_subscriptionId,
+            REQUEST_CONFIRMATIONS,
+            i_callbackGaslimit,
+            NUM_WORDS
+        );
+
+        emit RequestedLotteryChampion(requestId);
+    }
+
+    function fulfillRandomWords(
+        uint256 requestId,
+        uint256[] memory randomWords
+    ) internal override {}
+
+    //we want other users to see entrance fee so we created the function below
+    /*View/Pure Function*/
+    function getEntranceFee() public view returns (uint256) {
+        return i_welcomeFee;
+    }
+
+    //to know who are in the participants array the function is created below
+    function getParticipant(uint256 index) public view returns (address) {
+        return s_participants[index];
+    }
+}
+
+
+```
+
+
+
 
 
 
