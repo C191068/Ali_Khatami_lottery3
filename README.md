@@ -19,6 +19,22 @@ We gonna call thsi function on Coordinator Contract <br>
 
 We gonna get Coordinator Contract when we use   VRFCoordinatorV2Interface and 0x8103B0A8A00be2DDC778e6e7eaa21791Cd364625 address    <br> 
 
+```
 COORDINATOR = VRFCoordinatorV2Interface(
             0x8103B0A8A00be2DDC778e6e7eaa21791Cd364625
         );
+
+```
+
+
+![c15](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/3d00b8b7-8f16-4f4a-a387-8b30a60a5ea9)
+
+To get the  VRFCoordinatorV2Interface contract we will copy the above code <br>
+
+
+
+
+
+
+
+
