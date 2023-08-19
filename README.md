@@ -214,6 +214,10 @@ it will be private since we gonna use it only once <br>
 Now is the request confirmation <br>
 
 
+Request confirmation is How many confirmations the Chainlink node should wait before responding. <br>
+The longer the node waits, the more secure the random value is.<br>
+It must be greater than the minimumRequestBlockConfirmations limit on the coordinator contract.<br>
+
 
 
 
