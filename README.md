@@ -1,6 +1,6 @@
 # Ali_Khatami_Lottery3(Learning from the video of patrick Collins)
 
-###  Implementing Chainlink VRF  
+###  Implementing Chainlink VRF(The Request)  
 
 Instead of writing ```yarn hardhat compile``` we can use shortcut and for that hardhat comes with shorthand amd autocomplete <br>
 
