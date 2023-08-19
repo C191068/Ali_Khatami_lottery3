@@ -48,7 +48,7 @@ Then we can save this vrfCoordinator using the address <br>
 
 For that we write the above line of code <br>
 
-We only gonna set our vrfCoordinator one time <br>
+We only gonna set our vrfCoordinator one time rigt in the constaructor <br>
 
 
 
