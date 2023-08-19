@@ -260,6 +260,9 @@ We are gonna make this parameterizable because we gonna code how to fulfill rand
 we declare the variable here <br>
 
 
+![c30](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/1ee64e4c-b6d2-4ebe-b52b-1308185d7b1a)
+
+Then we have assign it in the above way <br>
 
 
 
