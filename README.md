@@ -224,6 +224,8 @@ Maybe we don't actually send it, because you are afraid of some kind of blockcha
 
 We don't actuall gonna worry abot this , we gonna make it constant of three <br>
 
+We not gonna have this parameterizable we actually gonnna have this constant <br>
+
 
 
 
