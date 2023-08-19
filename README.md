@@ -255,6 +255,9 @@ It will block the random number from responding <br>
 
 We are gonna make this parameterizable because we gonna code how to fulfill random words <br>
 
+![c29](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/98f11d82-e4f9-4b9a-b469-809da6bc3077)
+
+we declare the variable here <br>
 
 
 
