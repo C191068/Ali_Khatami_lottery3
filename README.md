@@ -220,7 +220,7 @@ It must be greater than the minimumRequestBlockConfirmations limit on the coordi
 
 So if you make a request and there is one block of confirmation <br>
 
-Maybe we don't actually send it <br>
+Maybe we don't actually send it, because you are afraid of some kind of blockchain reorganization <br>
 
 
 
