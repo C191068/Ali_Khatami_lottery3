@@ -253,6 +253,8 @@ For example we ccidently code in awy that function fulfillRandomWords is incredi
 It will block the random number from responding <br>
 
 
+We are gonna make this parameterizable because we gonna code how to fulfill random words <br>
+
 
 
 
