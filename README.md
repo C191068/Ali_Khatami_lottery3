@@ -222,6 +222,7 @@ So if you make a request and there is one block of confirmation <br>
 
 Maybe we don't actually send it, because you are afraid of some kind of blockchain reorganization <br>
 
+We don't actuall gonna worry abot this , we gonna make it constant of three <br>
 
 
 
