@@ -222,7 +222,13 @@ So if you make a request and there is one block of confirmation <br>
 
 Maybe we don't actually send it, because you are afraid of some kind of blockchain reorganization <br>
 
-We don't actuall gonna worry abot this , we gonna make it constant of three <br>
+
+
+![c28](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/69c6aa3d-a7bb-46cb-b26d-7b19a7bf3be9)
+
+
+
+We don't actually gonna worry abot this , we gonna make it constant of three <br>
 
 We not gonna have this parameterizable we actually gonnna have this constant <br>
 
