@@ -66,7 +66,9 @@ For that we gonna copy the above line of code <br>
 Then we change it from Coordiantor to i_vrfCoordinator   <br>
 
 
+![c22](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/900932b4-47e5-4ac5-8398-6290c5cc4402)
 
+Here the above key hash is known as gas lane <br>
 
 
 
