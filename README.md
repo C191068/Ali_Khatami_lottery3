@@ -240,7 +240,12 @@ Adjust this value for larger requests depending on how your fulfillRandomWords f
 and stores the received random values. <br>
 If your callbackGasLimit is not sufficient,<br>
 the callback will fail and your subscription is still charged<br>
-for the work done to generate your requested random values.
+for the work done to generate your requested random values.<br>
+
+This set a limit of how much computataion our fulfillRandomWords can be <br>
+
+
+
 
 
 
