@@ -218,6 +218,8 @@ Request confirmation is How many confirmations the Chainlink node should wait be
 The longer the node waits, the more secure the random value is.<br>
 It must be greater than the minimumRequestBlockConfirmations limit on the coordinator contract.<br>
 
+So if you make a request and there is one block of confirmation <br>
+
 
 
 
