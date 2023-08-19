@@ -38,7 +38,9 @@ And we will paste it here <br>
 
 
 ![c17](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/13a495f2-17d2-461c-9276-bde04a70b47f)
-just like price feed we will create a variable of type VRFCoordinatorV2Interface <br>
+just like price feed we will create a variable vrfCoordinator of type VRFCoordinatorV2Interface <br>
+
+Then we can save this vrfCoordinator using the address <br>
 
 
 
