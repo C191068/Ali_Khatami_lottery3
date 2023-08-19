@@ -106,6 +106,9 @@ So we need the ID of the subscription that we are using to request our random nu
 
 And pay the link oracle gas <br>
 
+The subscription ID is also gonna be something that we are going to pass <br>
+
+as a parameter to our lottery <br>
 
 
 
