@@ -303,6 +303,10 @@ if we wanna sve it we can do the above <br>
 
 Now for now we gonna emit event with this request ID <br>
 
+![c35](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/aa040cca-55f2-45d1-82e1-f0aaa4098ca4)
+
+Here we wmit the event <br>
+
 
 
 
