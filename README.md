@@ -244,6 +244,8 @@ for the work done to generate your requested random values.<br>
 
 This set a limit of how much computataion our fulfillRandomWords can be <br>
 
+This is a way of protecting ourselves from spending too much gas <br>
+
 
 
 
