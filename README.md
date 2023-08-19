@@ -211,6 +211,8 @@ contract akrkLottery is VRFConsumerBaseV2 {
 ![c27](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/5573a474-f66f-4c9d-b143-abb0a7371c8b)
 it will be private since we gonna use it only once <br>
 
+Now is the request confirmation <br>
+
 
 
 
