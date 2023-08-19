@@ -43,7 +43,10 @@ just like price feed we will create a variable vrfCoordinator of type VRFCoordin
 Then we can save this vrfCoordinator using the address <br>
 
 
+![c18](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/e7185f52-7bc8-4ecc-897e-c2ae40920c44)
 
+
+For that we write the above line of code <br>
 
 
 
