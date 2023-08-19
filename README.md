@@ -104,6 +104,10 @@ And in this contract there is a list of this subscription for people to make req
 
 So we need the ID of the subscription that we are using to request our random numbers <br>
 
+And pay the link oracle gas <br>
+
+
+
 
 
 
