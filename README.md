@@ -307,6 +307,9 @@ Now for now we gonna emit event with this request ID <br>
 
 Here we wmit the event <br>
 
+![c36](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/5f3b6230-447a-4996-bc51-bb5896e1f76b)
+
+Now we gonna set this up so that chainlink keepers can call it on a time interval <br>
 
 
 
