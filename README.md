@@ -268,6 +268,13 @@ Then we have assign it in the above way <br>
 Next is the number of words is how may random number we want ot get <br>
 
 
+![c31](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/8aefa5d2-6c43-47ed-a2d7-225cd1352f74)
+
+here we add it like others <br>
+
+![c32](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/a32918d7-2574-41ee-9fa1-94f63fac15a9)
+Here we change it like others <br>
+
 
 
 
