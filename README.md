@@ -265,6 +265,8 @@ we declare the variable here <br>
 Then we have assign it in the above way <br>
 
 
+Next is the number of words is how may random number we want ot get <br>
+
 
 
 
