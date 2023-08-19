@@ -95,7 +95,15 @@ Then we will declare a new state variable and we only gonna set this once and so
 
 Now
 
-The subscription ID that this contract uses for funding requests. Initialized in the constructor.
+The subscription ID that this contract uses for funding requests. Initialized in the constructor.<br>
+
+It is actually a contract on blockchain which we can used to fund any subscription for any of this external <br>
+data or external computation bits <br>
+
+And in this contract there is a list of this subscription for people to make request to <br>
+
+
+
 
 ```solidity
 
