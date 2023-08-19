@@ -71,6 +71,13 @@ Then we change it from Coordiantor to i_vrfCoordinator   <br>
 Here the above key hash is known as gas lane <br>
 
 
+![c23](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/04c00fe8-796f-420f-9f32-e3ed306b2f11)
+
+In the above link https://docs.chain.link/getting-started/intermediates-tutorial we can get the definition<br>
+of key hash
+The gas lane key hash value, which is the maximum gas price 
+you are willing to pay for a request in wei.
+It functions as an ID of the off-chain VRF job that runs in response to requests.<br>
 
 
 
