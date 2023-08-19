@@ -275,6 +275,27 @@ here we add it like others <br>
 ![c32](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/a32918d7-2574-41ee-9fa1-94f63fac15a9)
 Here we change it like others <br>
 
+```
+ function requestRandomchampion() external {
+        i_vrfCoordinator.requestRandomWords(
+            i_gasLane,
+            i_subscriptionId,
+            REQUEST_CONFIRMATIONS,
+            i_callbackGaslimit,
+            NUM_WORDS
+        );
+    }
+
+```
+
+
+here in the above ```requestRandomWords``` function returns an unique ID that defines who is requesting these<br>
+and all other information <br>
+
+![c33](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/7b13b6e9-6497-419e-bc62-9a9b6468e3ab)
+
+
+if we wanna sve it we can do the above <br>
 
 
 
