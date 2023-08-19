@@ -16,3 +16,8 @@ On VRFCoordinator address we gonna call this requestRandomWords() function
 
 We gonna call thsi function on Coordinator Contract <br>
 
+We gonna get Coordinator Contract when we use   VRFCoordinatorV2Interface and 0x8103B0A8A00be2DDC778e6e7eaa21791Cd364625 address    <br> 
+
+COORDINATOR = VRFCoordinatorV2Interface(
+            0x8103B0A8A00be2DDC778e6e7eaa21791Cd364625
+        );
