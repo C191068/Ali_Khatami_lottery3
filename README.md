@@ -106,6 +106,10 @@ So we need the ID of the subscription that we are using to request our random nu
 
 And pay the link oracle gas <br>
 
+
+![c26](https://github.com/C191068/Ali_Khatami_lottery3/assets/89090776/b857dc16-9b12-4c6f-84c2-04e488420e11)
+
+
 The subscription ID is also gonna be something that we are going to pass <br>
 
 as a parameter to our lottery <br>
