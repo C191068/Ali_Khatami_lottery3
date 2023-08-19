@@ -247,6 +247,11 @@ This set a limit of how much computataion our fulfillRandomWords can be <br>
 This is a way of protecting ourselves from spending too much gas <br>
 
 
+For example we ccidently code in awy that function fulfillRandomWords is incredibly gas expensive <br>
+
+
+It will block the random number from responding <br>
+
 
 
 
