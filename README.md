@@ -102,6 +102,8 @@ data or external computation bits <br>
 
 And in this contract there is a list of this subscription for people to make request to <br>
 
+So we need the ID of the subscription that we are using to request our random numbers <br>
+
 
 
 
